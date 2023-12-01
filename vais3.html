@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Title name..</title>
+        <style>
+            body{
+                background-image: url("pai.jpeg");
+                /* zoom: 10%; */
+            }
+            .outtext2{
+                padding-left: 500%;
+                padding-top: 20px;
+                text-shadow: 0 0 .1em yellow;  
+                color: black;
+                font-size: big;
+                width: 100%;
+            } 
+            .welc2{
+                height: 50px;
+                width: 100px;
+                background-color:white;
+                align-content: center;
+            }
+            .btn3:hover{
+                box-shadow: 2px 2px 20px green;
+                background-color: chocolate;
+            }
+            .btn3{
+                float: right;
+                box-shadow:2px 2px 20px red  ;
+                border-color: brown;
+                width: 100px;
+                height: 50px;
+                border-radius: 10%;
+            }
+            #Ex{
+                position: relative;
+                width: 530px;
+                height: 530px;
+                margin: 0 auto 20px;
+                padding: 10px;
+            }
+            .childbox{
+                font-size: 12px;
+                position: relative;
+                width: 100px;
+                height: 100px;
+                margin-bottom: 10px;
+            }
+            .childbox p{
+                text-align: center;
+                padding-top: 10px;  
+            }
+            #ease.childbox{
+                transition: all 30s ease;
+                border: 1px solid orange;
+                background-image: url("p1.jpeg") ;
+                background-size: cover;
+            }
+            #ease-in.childbox{
+                transition: all 30s ease-in;
+                border: 1px solid blue;
+                background-image: url("p2.jpeg") ;
+                background-size: cover;
+            }
+            #ease-out.childbox{
+                transition: all 30s ease-out;
+                border: 1px solid rgb(212, 255, 0);
+                background-image: url("v1.jpeg") ;
+                background-size: cover;
+            }
+            #ease-in-out.childbox{
+                transition: all 30s ease-in-out;
+                border: 1px solid rgb(255, 0, 0);
+                background-image: url("p4.jpeg") ;
+                background-size: cover;
+            }
+            #linear.childbox{
+                transition: all 30s linear;
+                border: 1px solid rgb(230, 0, 255);
+                background-image: url("v8.jpeg") ;
+                background-size: cover;
+            }
+            #Ex:hover .childbox{
+                border-radius: 100px;
+                transform: rotate(720deg);
+                margin-left: 420px;
+                /* background-image: url("imp.jpeg") ;
+                background-size: cover; */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="welc2"> <marquee class="outtext2" behavior="scroll" direction="left"
+            loop="5" scrollamount="5">WELCOME TO NEXT SHOW..!!</marquee></div>
+        <div id="Ex">
+            <div id="ease" class="childbox"><p></p></div>
+            <div id="ease-in" class="childbox"><p></p></div>
+            <div id="ease-out" class="childbox"><p></p></div>
+            <div id="ease-in-out" class="childbox"><p></p></div>
+            <div id="linear" class="childbox"><p></p></div>
+        </div>
+        <div>
+            <br>
+            <a href="vais4.html"><button class="btn3" type="click">Next</button></a>
+        </div>
+    </body>
+</html>

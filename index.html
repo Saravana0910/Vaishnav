@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="vaisBday.css"> 
+        <script>
+            function func(){
+               var ss=document.getElementById("pwd").value;
+                if(ss == 2024){
+                   return true
+                }
+                else{
+                    document.getElementById("span").innerHTML="Password Incorrect!!"
+                    return false
+                }
+                
+            }
+            
+        </script>
+    </head>
+    <body>
+            <div class="first">
+                <form action="vaisOut.html" onsubmit="return func()">
+                Name : <input class="box" type="text" placeholder="Enter Ur sweet name !!" required>
+                PassWd : <input type="password" id="pwd" value=""  placeholder="password" required> <br>
+                <span id="span" style="color: red; margin-left: 85px;"></span> 
+                <br>
+                <input class="btn" type="submit" value="Go" id="submit"></a> </form>
+                <marquee class="text" behavior="scroll" direction="left" loop="5" scrollamount="5"><i>Disclaimer : This page contains Sensitive Content</i></marquee>
+            </div>
+            
+    </body>
+</html>

@@ -1,0 +1,50 @@
+body{
+    background-image: url("Cute.jpg");
+    background-attachment: fixed;
+}
+.first{
+    background-image: url("vais.jpg"); 
+    box-shadow: 2px 2px 20px yellow;
+    width: 250px;
+    height: 130px;
+    padding: 30px; 
+    border: 2px solid blue;
+    margin: 200px;
+} 
+.text:hover{
+    /* writing-mode: vertical-rl; */
+    color: red;
+    text-shadow: 0 0 .1em cyan;  
+    font-size: small;
+    width: 100%;
+    font-size: 15px;
+}
+.text{
+    text-shadow: 0 0 .1em yellow;  
+    color: black;
+    font-size: small;
+    width: 100%;
+    font-size: 15px;
+}
+.box:hover{
+     box-shadow: 2px 2px 20px green;
+}
+.box{
+    box-shadow: 2px 2px 20px red ;
+    background: whitesmoke;
+    border: 2px solid blue;
+    padding: 15px;
+    font-size: 13px;                 
+    margin-bottom: 10px;
+}
+.btn:hover{
+    box-shadow: 2px 2px 20px green;
+    background-color: chocolate;
+}
+.btn{
+    box-shadow:2px 2px 20px red  ;
+    border-color: brown;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
